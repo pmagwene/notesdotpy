@@ -3,9 +3,13 @@ notesdotpy
 
 A simply command line note taking script written in Python. This is meant to facilitate "brain dumps" rather than organizing, rearranging, etc.  However, the resulting file is a plain text file so you can re-organize to your hearts content.
 
-Simply writes strings entered on the command line to a file (as specified in notes.cfg). Notes are formatted as markdown style list items (or equivalently YAML sequence items) so it's easy to import them into your other plain text based workflow.
+Simply writes strings entered on the command line to a file (as specified in notes.cfg).
 
-This script was derived from a Python script found here: http://rosettacode.org/wiki/Take_notes_on_the_command_line#Python
+- New notes are appended at the end of the file
+- Notes are formatted as markdown style list items (or equivalently YAML sequence items) so it's easy to import them into your other plain text based workflow.
+- An [ISO 8601](http://www.w3.org/TR/NOTE-datetime) timestamp is appended to the end of each note (in square brackets).
+
+This script was derived from a Python script found on the [Rosetta Code website](http://rosettacode.org/wiki/Take_notes_on_the_command_line#Python).
 
 ## Installation
 - put `notes.py` on your `PATH` and make executable (`chmod +x notes.py`)
