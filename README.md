@@ -19,5 +19,5 @@ Derived from a Python script found here: http://rosettacode.org/wiki/Take_notes_
 
 - `notes.py` -- simply prints the contents of the file
 
-- `notes.py "Check out this url: https://github.com/pmagwene/notesdotpy"` --  adds note to file
+- `notes.py "I wonder how fast an unladen swallow can fly?"` --  adds note to file
 
