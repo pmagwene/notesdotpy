@@ -1,7 +1,7 @@
 notesdotpy
 ==========
 
-A simply command line note taking script written in Python. This is meant to facilitate "brain dumps" rather than organizing, rearranging, etc.  However, the resulting file is a plain text file so you can re-organize to your hearts content.
+A simple command line note taking script written in Python. This is meant to facilitate "brain dumps" rather than organizing, rearranging, etc.  However, the resulting file is a plain text file so you can re-organize to your hearts content.
 
 Simply writes strings entered on the command line to a file (as specified in notes.cfg).
 
@@ -20,6 +20,6 @@ This script was derived from a Python script found on the [Rosetta Code website]
 - setup an alias in your `.bash_profile`, e.g. `alias note="notes.py"`
 
 ## Usage
-- `notes.py` -- simply prints the contents of the file
-- `notes.py "I wonder how fast an unladen swallow can fly?"` --  adds note to file
+- `notes.py` -- prints the contents of the notes file
+- `notes.py "I wonder how fast an unladen swallow can fly?"` --  adds note to note file
 
