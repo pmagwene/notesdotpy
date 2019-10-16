@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 
 import sys, datetime, shutil, os.path
-from ConfigParser import SafeConfigParser
+from configparser import ConfigParser
 
 # get file info
 configfile = os.path.expandvars("$HOME/.notes.cfg")
 
-parser = SafeConfigParser()
+parser = ConfigParser()
 parser.read(configfile)
 dirstr = os.path.expandvars(parser.get('files', 'notedir'))
 fstr = parser.get('files', 'notefile')
